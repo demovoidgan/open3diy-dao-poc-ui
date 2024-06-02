@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #7dc248;
+  height: 60px; /* Ajusta la altura del header */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.App-body {
+  display: flex;
+  flex: 1; /* Hace que el cuerpo ocupe el espacio restante */
+  background-color: #6e746a;
+}
+
+.App-left-panel {
+  background-color: #f0f0f0;
+  width: 20%; /* Ajusta según tu necesidad */
+}
+
+.App-main-content {
+  flex-grow: 1; /* Toma el resto del espacio */
+}
+
+.App-footer {
+  background-color: #7dc248;
+  height: 60px; /* Ajusta la altura del footer */
+}
+
+button {
+  margin: 5px;
+}
