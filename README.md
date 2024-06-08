@@ -15,8 +15,8 @@ Gracias por tu interés en contribuir a open3diy-dao-poc-ui. Aquí tienes alguna
 2. **Crea un nuevo proyecto**
 
    ```bash
-   npx create-react-app open3diy-dao-poc-ui
-   cd open3diy-dao-poc-ui
+   npx create-react-app ui-app
+   cd ui-app
    ```
 
 ## Configuración del Entorno de Desarrollo

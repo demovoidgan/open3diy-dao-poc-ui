@@ -10,13 +10,13 @@
   height: 60px; /* Ajusta la altura del header */
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Cambia el valor a flex-start para alinear a la izquierda */
   align-items: center;
 }
 
 .header-title {
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .header-buttons {
@@ -27,12 +27,15 @@
 .App-body {
   display: flex;
   flex: 1; /* Hace que el cuerpo ocupe el espacio restante */
-  background-color: #6e746a;
+  background-color: #0e5f74;
+  color: rgb(129, 194, 111); /* Añade aquí el color del texto */
+  font-size: 20px; /* Aumenta el tamaño de la fuente a 20px */
 }
 
 .App-left-panel {
   background-color: #f0f0f0;
-  width: 20%; /* Ajusta según tu necesidad */
+  flex-basis: 10%; /* Asegura que el panel izquierdo tome el 20% del ancho */
+  flex-shrink: 0; /* Evita que el panel izquierdo se encoja por debajo del 20% */
 }
 
 .App-main-content {

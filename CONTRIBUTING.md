@@ -21,7 +21,7 @@ Asegúrate de tener instaladas las siguientes herramientas:
 2. **Instala las dependencias:**
 
     ```bash
-    cd open3diy-dao-poc-ui
+    cd ui-app
     npm install??
     npm install react-router-dom
     ``` 
@@ -29,7 +29,7 @@ Asegúrate de tener instaladas las siguientes herramientas:
 3. **Inicia el servidor de desarrollo:**
 
    ```bash
-   cd open3diy-dao-poc-ui
+   cd ui-app
    npm start
    ```
 

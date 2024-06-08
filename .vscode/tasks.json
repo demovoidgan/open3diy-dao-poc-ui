@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "npm start",
-            "command": "cd ${workspaceFolder}/open3diy-dao-poc-ui/ && export BROWSER=none && npm start",
+            "command": "cd ${workspaceFolder}/ui-app/ && export BROWSER=none && npm start",
             "isBackground": true,
             "problemMatcher": {
                 "owner": "custom",
