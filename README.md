@@ -37,6 +37,7 @@ Gracias por tu interés en contribuir a open3diy-dao-poc-ui. Aquí tienes alguna
 3. **Inicia el servidor de desarrollo:**
 
     ```bash
+    cd ui-app
     npm start
     ``` 
 
